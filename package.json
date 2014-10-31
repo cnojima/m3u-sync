@@ -1,0 +1,31 @@
+{
+  "name": "m3u-sync",
+  "version": "0.0.1",
+  "description": "Syncs files listed in an .m3u file with a destination dir (usually a UMS/MTP mount)",
+  "homepage": "https://github.com/cnojima/m3u-sync",
+  "repository": "git@github.com:cnojima/m3u-sync.git",
+  "author": {
+    "name": "Chris Nojima",
+    "email": "cnojima@gmail.com",
+    "url": "https://github.com/cnojima"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
